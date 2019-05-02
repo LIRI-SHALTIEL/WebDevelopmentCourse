@@ -1,0 +1,324 @@
+body {
+    direction: rtl;
+    font-family: Alef;
+    font-size: 14pt;
+    background-position: center;
+    background-image: url('../images for web/backGround.jpg');
+    background-repeat: repeat;
+   
+}
+#container{
+        width: 960px;
+         margin: 0 auto;
+}
+nav{
+    margin: 20px 0px;
+}
+nav ul li{
+    display: inline-block;
+    float:right;
+}
+/*עיצוב תפריט ניווט*/
+nav ul li a {
+    display: inline-block;
+    background-color: #593F73;
+    width: 186px;
+    height: 61px;
+    padding-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #F2E0DC;
+    font-size: 19pt;
+    font-weight: bold;
+    border: solid 3px;
+    text-shadow: 1px 1px grey;
+ 
+}
+
+/*עיצוב תפריט ניווט במעבר עכבר*/
+    nav ul li a:hover {
+        background-color: #F2ACE0;
+    }
+
+/*ניווט בלחיצת עכבר*/
+    nav ul li a:active {
+        background-color: #E1CCFF;
+    }
+
+/*עיצוב כותרת מרמה h1 */
+h1 {
+    margin: 0px 1px 10px 80px;
+    padding: 130px 5px 5px 300px;
+    font-size: 40pt;
+    text-shadow: 1.5px 1px grey;
+}
+
+/*עיצוב כותרת מרמה h2*/
+h2 {
+    margin: 0px 5px 24px 80px;
+    padding: 1px 1px 1px 50px;
+    font-size: 20pt;
+}
+
+/*עיצוב כותרת מרמה h3*/
+h3 {
+    margin: 0px 5px 70px 80px;
+    padding: 1px 1px 1px 50px;
+    font-size: 32pt;
+}
+
+/*עיצוב פסקה p*/
+p {
+    margin: 23px 5px 35px 60px;
+    padding: 10px 10px 1px 1px;
+    font-size: 24pt;
+    line-height: 1.5;
+    width: 514px;
+    text-align: justify;
+}
+
+/*תמונת פרופיל לדף הבית*/
+#LiriImgHP {
+    width: 239px;
+    height: 315px;
+    position: absolute;
+    margin: 171px 692px 23px 10px;
+}
+
+
+/*יצירה מקורית*/
+#orignYzira {
+    height: 409px;
+    width: 539px;
+    position: inherit;
+    position: absolute;
+    margin: 99px -1px;
+}
+
+/*עמוד 1- יצירה חדשה, עיצוב ליצירה הסופית שהוצגה*/
+#yzira {
+    padding: 352px 10px 1px 1px;
+    height: 409px;
+    width: 403px;
+    position: relative;
+    margin: -317px 46px 12px 10px;
+    right: 490px;
+    top: -90px;
+}
+
+
+/*עיצוב ככלי לכותרות עמודי תוכן מסוג h1*/
+.h1Group {
+    font-size: 32pt;
+    display: inline-block;
+    text-shadow: 1.5px 1px grey;
+    text-align: justify;
+    position: relative;
+    right: 0px;
+    top: 30px;
+    margin: 10px 10px 14px 10px;
+    padding: 10px 10px;
+}
+
+/*עיצוב כללי לכותרות עמודי תוכן מסוג h2*/
+.h2Group {
+    padding: 17px 5px 15px 0px;
+    font-size: 24pt;
+    text-align: justify;
+    position: relative;
+    right: 2px;
+    top: 19px;
+}
+
+/*עיצוב כללי לכותרות עמודי תוכן מסוג h3*/
+.h3Group {
+    margin: 0px 1px 10px 80px;
+    padding: 30px 5px 5px 300px;
+    font-size: 22pt;
+    text-align: justify;
+}
+
+/*עיצוב כללי לפסקאות תוכן מסוג p*/
+.pGroup {
+    margin: 10px 1px 1px 1px;
+    padding: 20px 1px 10px 100px;
+    font-size: 20pt;
+    line-height: 1.5;
+    width: 1166px;
+    text-align: justify;
+}
+
+/*עמוד 1- כותרת תהליך*/
+#h1ThalichPage1 {
+    padding: 0px 1px 5px 50px;
+    margin: 29px 10px 10px 10px;
+    font-size: 32pt;
+    display: inline-block;
+    text-shadow: 1.5px 1px grey;
+    text-align: justify;
+}
+
+
+
+/*עמוד 1- פסקת תהליך העבודה */
+#p1page1 {
+    margin: 10px 1px 14px 100px;
+    padding: 10px 1px 14px 21px;
+    font-size: 24pt;
+    line-height: 1.5;
+    width: 961px;
+    text-align: justify;
+}
+
+
+/*עמוד 1- כותרת יצירה מקורית*/
+#h2OYzira {
+    padding: 40px 2px 10px 12px;
+    font-size: 24pt;
+    position: relative;
+    margin: -4px 11px -109px 16px;
+}
+
+
+
+/*עמוד 1- כותרת היצירה החדשה*/
+#h2Yzira2 {
+    padding: 17px 5px 10px 16px;
+    font-size: 24pt;
+    display: inline-block;
+    position: relative;
+    right: 538px;
+    top: -18px;
+}
+
+/*עמוד 1- כותרת היצירה שנבחרה*/
+#h1Yzira {
+    padding: 471px 10px 1px 1px;
+    font-size: 20pt;
+    line-height: 1.5;
+    margin: -526px 10px 12px 10px;
+}
+
+/*עמוד 1- כיתוב מסוג p היצירה שנבחרה */
+#pGroupYzira {
+    padding: 8px 7px 10px 62px;
+    font-size: 22pt;
+    line-height: 1.5;
+    margin: 23px 9px 26px 9px;
+    text-align: justify;
+    height: 100px;
+    width: 934px;
+}
+
+/*עמוד 1- כותר מסוג h3 לתוכן וידאו עבודה*/
+#h3Seret {
+    margin: -36px 168px -77px 10px;
+    padding: 10px 12px 10px 10px;
+    
+}
+
+/*עמוד 1- תוכן וידאו  עבודה*/
+#iframe {
+    margin: 68px 142px 10px 10px;
+    padding: 18px 10px 18px 10px;
+   
+}
+
+/*עמוד 1-כותרת אודות תהליך*/
+#h1OdotThalich {
+    margin: 683px 5px -15px 20px;
+    padding: 1px 1px 5px 50px;
+    font-size: 32pt;
+    display: inline-block;
+    text-shadow: 1.5px 1px grey;
+    text-align: justify;
+}
+
+
+/*עמוד 2- קולאז' תמונת פרויקט*/
+#imgPortrait {
+    color: #682CBD;
+    height: 690px;
+    width: 970px;
+    transition: width 5s;
+}
+
+
+    /*עמוד 2- אנימציה לתמונת פרויקט קולאז*/
+    #imgPortrait:hover {
+        color: #E1CCFF;
+        width: 100px;
+    }
+
+/* עמוד 2+3- כותרת ברמת h1, לתהליך העבודה*/
+.h1Thalich {
+    margin: -60px 356px -134px 0px;
+    padding: 117px 136px 1px 12px;
+    width: 458px;
+}
+
+/*עמוד 2+3- פסקאת תוכן לתהליך העבודה*/
+.pThalich {
+    margin: -76px 492px -10px 0px;
+    padding: 149px 0px 15px 13px;
+    width: 458px;
+}
+ 
+
+
+
+
+
+/*1עמוד 2- פסקת תוכן הבחירות שלי*/
+#pHabhirotSheli1 {
+    text-align: justify;
+    margin: 9px 6px 10px 0px;
+    padding: 10px 0px 14px 13px;
+    width: 934px;
+}
+
+/*2עמוד 2- פסקת תוכן הבחירות שלי*/
+#pHabhirotSheli2 {
+    text-align: justify;
+    margin: 8px 7px 10px 0px;
+    padding: 10px 0px 14px 13px;
+    width: 934px;
+}
+
+
+/*עמוד 2- אודיו סאונד רקע*/
+#audio {
+    margin: -1785px 8px -136px 11px;
+    padding: 11px 0px 55px 13px;
+    width: 390px;
+    position: relative;
+    top: -66px;
+    right: -1px;
+}
+    
+
+
+/*עמוד 3- פסקת תוכן מסוג p טקסט תהליך עבודה */
+#textPoster {
+    margin: 10px 1px 1px 1px;
+    padding: 20px 1px 10px 100px;
+    font-size: 20pt;
+    line-height: 1.5;
+    width: 1166px;
+}
+
+
+/*עמוד 3- תמונה פוסטר HIT*/
+#imgPoster {
+    height: 600px;
+    width: 400px;
+}
+
+#audioPoster {
+    margin: 10px 8px 0px 10px;
+    padding: 11px 0px 55px 13px;
+    width: 390px;
+    position: relative;
+    top: -66px;
+    right: -1px;
+}
