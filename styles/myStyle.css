@@ -1,3 +1,4 @@
+/*design body*/
 body {
     direction: rtl;
     font-family: Alef;
@@ -7,21 +8,24 @@ body {
     background-repeat: repeat;
 }
 
+/*design container*/
 #container{
     width: 960px;
     margin: 0 auto;
 }
 
+/*design navigation*/
 nav{
     margin: 20px 0px;
 }
 
+/*design navigation*/
 nav ul li{
     display: inline-block;
     float:right;
 }
 
-/*עיצוב תפריט ניווט*/
+/*design navigation*/
 nav ul li a {
     display: inline-block;
     background-color: #593F73;
@@ -38,25 +42,25 @@ nav ul li a {
  
 }
 
-/*עיצוב תפריט ניווט במעבר עכבר*/
+/*design color navigation by hover עיצוב תפריט ניווט במעבר עכבר*/
     nav ul li a:hover {
         background-color: #F2ACE0;
     }
 
-/*ניווט בלחיצת עכבר*/
+/* design color navigation by active ניווט בלחיצת עכבר*/
     nav ul li a:active {
         background-color: #E1CCFF;
     }
 
   
-/*תפריט ניווט- קטגוריית עמוד בצבע בעת הימצאות בו*/
+/*navigation- page color where stay in it תפריט ניווט- קטגוריית עמוד בצבע בעת הימצאות בו*/
 .thisPage {
     background-color: #8C3F87;
 }
 
 
 
-/*עיצוב כותרת מרמה h1 */
+/*design title by level h1 עיצוב כותרת מרמה h1 */
 h1 {
     margin: 0px 1px 10px 80px;
     padding: 130px 5px 5px 300px;
@@ -64,21 +68,21 @@ h1 {
     text-shadow: 1.5px 1px grey;
 }
 
-/*עיצוב כותרת מרמה h2*/
+/*design title by level h2 עיצוב כותרת מרמה  h2*/
 h2 {
     margin: 0px 5px 24px 80px;
     padding: 1px 1px 1px 50px;
     font-size: 14pt;
 }
 
-/*עיצוב כותרת מרמה h3*/
+/* design title by level h3 עיצוב כותרת מרמה h3*/
 h3 {
     margin: 0px 5px 70px 80px;
     padding: 1px 1px 1px 50px;
     font-size: 26pt;
 }
 
-/*עיצוב פסקה p*/
+/*design paragraph עיצוב פסקה p*/
 p {
     margin: 23px 5px 35px 60px;
     padding: 10px 10px 1px 1px;
@@ -88,7 +92,7 @@ p {
     text-align: justify;
 }
 
-/*תמונת פרופיל לדף הבית*/
+/*profile pic. for home page תמונת פרופיל לדף הבית*/
 #LiriImgHP {
     width: 376px;
     height: 495px;
@@ -97,7 +101,7 @@ p {
 }
 
 
-/*יצירה מקורית*/
+/*origin artwork page 1 עמוד 1- יצירה מקורית */
 #orignYzira {
     height: 409px;
     width: 539px;
@@ -106,7 +110,7 @@ p {
     margin: 99px -1px;
 }
 
-/*עמוד 1- יצירה חדשה, עיצוב ליצירה הסופית שהוצגה*/
+/*new artwork page 1 עמוד 1- יצירה חדשה, עיצוב ליצירה הסופית שהוצגה */
 #yzira {
     padding: 352px 10px 1px 1px;
     height: 409px;
@@ -118,7 +122,7 @@ p {
 }
 
 
-/*עיצוב ככלי לכותרות עמודי תוכן מסוג h1*/
+/* general design for page title from level h1 עיצוב כללי לכותרות עמודי תוכן מסוג h1*/
 .h1Group {
     font-size: 26pt;
     display: inline-block;
@@ -131,7 +135,7 @@ p {
     padding: 10px 10px;
 }
 
-/*עיצוב כללי לכותרות עמודי תוכן מסוג h2*/
+/* general design for page title from level h2 עיצוב כללי לכותרות עמודי תוכן מסוג h2*/
 .h2Group {
     padding: 17px 5px 15px 0px;
     font-size: 18pt;
@@ -141,7 +145,7 @@ p {
     top: 19px;
 }
 
-/*עיצוב כללי לכותרות עמודי תוכן מסוג h3*/
+/*general design for page title from level h3 עיצוב כללי לכותרות עמודי תוכן מסוג  h3*/
 .h3Group {
     margin: 0px 1px 10px 80px;
     padding: 30px 5px 5px 300px;
@@ -149,7 +153,7 @@ p {
     text-align: justify;
 }
 
-/*עיצוב כללי לפסקאות תוכן מסוג p*/
+/* general design for paragraph p עיצוב כללי לפסקאות תוכן מסוג p*/
 .pGroup {
     margin: 10px 1px 1px 1px;
     padding: 20px 1px 10px 100px;
@@ -159,7 +163,7 @@ p {
     text-align: justify;
 }
 
-/*עמוד 1- כותרת תהליך*/
+/*page 1- title processעמוד 1- כותרת תהליך */
 #h1ThalichPage1 {
     padding: 0px 1px 5px 50px;
     margin: 29px 10px 10px 10px;
@@ -171,7 +175,7 @@ p {
 
 
 
-/*עמוד 1- פסקת תהליך העבודה */
+/*page 1- title work process עמוד 1- פסקת תהליך העבודה */
 #p1page1 {
     margin: 10px 1px 14px 100px;
     padding: 10px 1px 14px 21px;
@@ -182,7 +186,7 @@ p {
 }
 
 
-/*עמוד 1- כותרת יצירה מקורית*/
+/* page 1- title origin artwork עמוד 1- כותרת יצירה מקורית*/
 #h2OYzira {
     padding: 40px 2px 10px 12px;
     font-size: 18pt;
@@ -192,7 +196,7 @@ p {
 
 
 
-/*עמוד 1- כותרת היצירה החדשה*/
+/*page 1- title new artwork עמוד 1- כותרת היצירה החדשה*/
 #h2Yzira2 {
     padding: 27px 5px 10px 16px;
     font-size: 18pt;
@@ -202,7 +206,7 @@ p {
     top: -18px;
 }
 
-/*עמוד 1- כותרת היצירה שנבחרה*/
+/*page 1- the chosen artwork עמוד 1- כותרת היצירה שנבחרה*/
 #h1Yzira {
     padding: 471px 10px 1px 1px;
     font-size: 14pt;
@@ -210,7 +214,7 @@ p {
     margin: -526px 10px 12px 10px;
 }
 
-/*עמוד 1- כיתוב מסוג p היצירה שנבחרה */
+/*page 1- the chosen artwork, type p. עמוד 1- כיתוב מסוג p היצירה שנבחרה */
 #pGroupYzira {
     padding: 8px 7px 10px 62px;
     font-size: 16pt;
@@ -221,19 +225,19 @@ p {
     width: 934px;
 }
 
-/*עמוד 1- כותר מסוג h3 לתוכן וידאו עבודה*/
+/* page 1- video title h3. עמוד 1- כותרת מסוג h3 לתוכן וידאו עבודה*/
 #h3Seret {
     margin: -36px 223px -77px 10px;
     padding: 10px 12px 10px 10px;
 }
 
-/*עמוד 1- תוכן וידאו  עבודה*/
+/*page 1- content video work עמוד 1- תוכן וידאו  עבודה*/
 #iframe {
     margin: 68px 171px 16px 10px;
     padding: 18px 10px 18px 10px;
 }
 
-/*עמוד 1-כותרת אודות תהליך*/
+/* page 1- title -about the process עמוד 1-כותרת אודות תהליך*/
 #h1OdotThalich {
     margin: 683px 5px -15px 20px;
     padding: 1px 1px 5px 50px;
@@ -244,7 +248,7 @@ p {
 }
 
 
-/*עמוד 2- קולאז' תמונת פרויקט*/
+/* page 2- kolaz pic project עמוד 2- קולאז' תמונת פרויקט*/
 #imgPortrait {
     color: #682CBD;
     height: 455px;
@@ -253,29 +257,29 @@ p {
 }
 
 
-/*עמוד 2- אנימציה לתמונת פרויקט קולאז*/
+/* page 2- animation for project kolaz pic עמוד 2- אנימציה לתמונת פרויקט קולאז*/
  #imgPortrait:hover {
      color: #E1CCFF;
      width: 100px;
  }
 
-/* עמוד 2+3- כותרת ברמת h1, לתהליך העבודה*/
+/*page 2+3- title for artwork process type h1 עמוד 2+3- כותרת ברמת h1, לתהליך העבודה*/
 .h1Thalich {
     margin: -62px 355px -129px 0px;
     padding: 117px 136px 1px 12px;
     width: 458px;
 }
 
-/*עמוד 2+3- פסקאת תוכן לתהליך העבודה*/
+/*page 2+3- content paragraph for artwork process עמוד 2+3- פסקאת תוכן לתהליך העבודה*/
 .pThalich {
     margin: -76px 492px -10px 0px;
     padding: 149px 0px 15px 13px;
     width: 458px;
 }
- 
 
 
-/*1עמוד 2- פסקת תוכן הבחירות שלי*/
+
+/* page 2- paragraph content my decisions 1. 1עמוד 2- פסקת תוכן הבחירות שלי*/
 #pHabhirotSheli1 {
     text-align: justify;
     margin: 9px 6px 10px 0px;
@@ -283,7 +287,7 @@ p {
     width: 934px;
 }
 
-/*2עמוד 2- פסקת תוכן הבחירות שלי*/
+/*page 2- paragraph content my decisions 2. 2עמוד 2- פסקת תוכן הבחירות שלי*/
 #pHabhirotSheli2 {
     text-align: justify;
     margin: 8px 7px 10px 0px;
@@ -292,7 +296,7 @@ p {
 }
 
 
-/*עמוד 2- אודיו סאונד רקע*/
+/*page 2- background sound עמוד 2- אודיו סאונד רקע*/
 #audio {
     margin: -1785px 8px -136px 11px;
     padding: 11px 0px 55px 13px;
@@ -301,10 +305,10 @@ p {
     top: -66px;
     right: -1px;
 }
-    
 
 
-/*עמוד 3- פסקת תוכן מסוג p טקסט תהליך עבודה */
+
+/* page 3- text for workart process, paragraph content p. עמוד 3- פסקת תוכן מסוג p טקסט תהליך עבודה */
 #textPoster {
     margin: 10px 1px 1px 1px;
     padding: 20px 1px 10px 100px;
@@ -314,7 +318,7 @@ p {
 }
 
 
-/*עמוד 3- תמונה פוסטר HIT*/
+/*page 3- pic poster HITעמוד 3- תמונה פוסטר HIT*/
 #imgPoster {
     height: 630px;
     width: 434px;
@@ -323,13 +327,13 @@ p {
     transition: width 5s;
 }
 
-/*עמוד 3- אנימציה לתמונת פוסטר*/
+/*page 3- animation for poster pic עמוד 3- אנימציה לתמונת פוסטר  */
 #imgPoster:hover {
     color: #E1CCFF;
     width: 100px;
 }
 
-/*עמוד 3- סאונד רקע*/
+/*page 3- background sound עמוד 3- סאונד רקע*/
 #audioPoster {
     margin: 30px 8px 0px 10px;
     padding: 11px 0px 23px 13px;
